@@ -17,10 +17,10 @@ function login(){
   .then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    navigation.navigate('Drawer_Welcome')
+   // navigation.navigate('Drawer_Welcome')
 
 
-   // console.log('ACCESO CORRECTO');
+    console.log(user);
 
     
   })
