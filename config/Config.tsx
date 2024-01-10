@@ -25,6 +25,6 @@ export const db = getDatabase(app) // base de datos
 ////////
 
 
-const auth = initializeAuth(app, {
+export const auth = initializeAuth(app, {
   persistence: getReactNativePersistence(ReactNativeAsyncStorage)
 });

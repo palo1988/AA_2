@@ -6,7 +6,6 @@ import { TextInput } from 'react-native-gesture-handler'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../config/Config';
 
-
 export default function RegistroScreen( {navigation} : any) {
   const [correo, setcorreo] = useState('')
   const [contrasenia, setContrasenia] = useState('')
